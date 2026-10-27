@@ -7,6 +7,12 @@
     }
 
     @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("Specialty: " + specialty);
+    }
+
+    @Override
     public void performDuties() {
         System.out.println(
                 "Duty: Diagnosing patients and prescribing treatment."
