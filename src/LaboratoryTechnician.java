@@ -7,6 +7,12 @@
     }
 
     @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("Certification Level: " + certificationLevel);
+    }
+
+    @Override
     public void performDuties() {
         System.out.println(
                 "Duty: Conducting laboratory tests and analyzing samples."
