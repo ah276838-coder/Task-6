@@ -17,5 +17,9 @@
             member.displayInfo();
             member.performDuties();
         }
+
+        System.out.println("\n=========================");
+        System.out.println("Total Staff Members: " + staff.length);
+        System.out.println("=========================");
     }
 }
