@@ -7,6 +7,12 @@
     }
 
     @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("Shift Type: " + shiftType);
+    }
+
+    @Override
     public void performDuties() {
         System.out.println(
                 "Duty: Providing patient care and monitoring vital signs."
