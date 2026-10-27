@@ -7,6 +7,12 @@
     }
 
     @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("License Number: " + licenseNumber);
+    }
+
+    @Override
     public void performDuties() {
         System.out.println(
                 "Duty: Dispensing medicines and advising on their use."
